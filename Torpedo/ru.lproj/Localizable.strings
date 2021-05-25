@@ -1,0 +1,75 @@
+"Launch" = "Пуск";
+"Torpedo attack" = "Торпедная атака";
+"Settings" = "Настройки";
+"About"="О игре";
+"Music"="Музыка";
+"Sound effects"="Звуковые эффекты";
+"The game is based on the \"Torpedo attack\" slot machine. It is intended solely for entertainment and does not purport to be historical realism. More than 20 silhouettes of real ships and submarines from around the world are presented.\n\nPurpose of the game: Hit the target ship twice.\n\nEnjoy." = "Игра создана на основе игрового автомата \"Торпедная атака\". Предназначена исключительно для развлечения и не претендует на исторический реализм. Представлено более 20 силуэтов реальных кораблей и подводных лодок из разных стран мира.\n\nЦель игры: дважды поразить корабль-мишень.\n\nНаслаждайтесь.";
+"Rating"="Рэйтинг";
+"Ranks and awards"="Чины и награды";
+"Order"="Приказ";
+"Hard mode"="Сложный режим";
+
+
+"You have been awarded the next military rank Ensign.\n\nMove forward into a given square and begin a combat mission." = "Присвоить очередное воинское звание младший лейтенант.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Lieutenant (junior grade). To award the Navy and Marine Corps Achievement Medal for achievements in combat or non-combat situations.\n\nMove forward to a given square and begin a combat mission." = "Присвоить очередное воинское звание Лейтенант. За отвагу и самоотверженность, проявленные в боевых действиях при защите Отечества, представить к медали Жукова.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Lieutenant.\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание старший лейтенант.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Lieutenant commander.\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание капитан - лейтенант.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Commander. To award the Navy and Marine Corps Commendation Medal for heroism.\n\nMove forward into a given square and begin a combat mission." = "Присвоить очередное воинское звание капитан 3-го ранга. За отвагу и самоотверженность, проявленные в боевых действиях при защите Отечества, представить к медали Ушакова.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Captain.\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание капитан 2-го ранга.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Rear admiral (lower half).\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание капитан 1-го ранга.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Rear admiral. To award the Navy Distinguished Service Medal for exceptionally dignified service within the framework of great responsibility.\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание контр - адмирал. За умело организованные и проведённые операции и боевые действия, в результате которых осуществлен разгром превосходящих сил противника представить к награде Ордену Нахимова.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Vice admiral.\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание вице - адмирал.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Admiral. Award the Navy Cross for extraordinary heroism in battle.\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание адмирал. За умелую организацию и проведение операций, боевых действий сил Флота самостоятельно, в ходе которых, несмотря на численное превосходство противника, были достигнуты цели операции представить к награде Ордену Ушакова.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"You have been awarded the next military rank Fleet admiral. To award the Medal of Honor for outstanding courage and courage at the risk of life and exceeding duty.\n\nMove forward into the given square and begin the combat mission." = "Присвоить очередное воинское звание адмирал флота. За выдающиеся заслуги перед государством и народом представить к награде Героя Российской Федерации.\n\nВыдвинуться в заданный квадрат и приступить к выполнению боевого задания.";
+
+"buttonMenu" = "buttonMenu_RU";
+"strikePointer"="strikePointer_RU";
+"destroyPointer"="destroyPointer_RU";
+
+"Ensign" = "Младший лейтенант";
+"Lieutenant(junior grade)" = "Лейтенант";
+"Lieutenant" = "Старший лейтенант";
+"Lieutenant commander" =  "Капитан - лейтенант";
+"Commander" = "Капитан 3-го ранга";
+"Captain" = "Капитан 2-го ранга";
+"Rear admiral (lower half)" = "Капитан 1-го ранга";
+"Rear admiral" = "Контр - адмирал";
+"Vice admiral" = "Вице - адмирал";
+"Admiral" = "Адмирал";
+"Fleet admiral" = "Адмирал флота";
+
+"Navy and Marine Corps Achievement Medal" = "Медаль Жукова";
+"Navy and Marine Corps Commendation Medal" = "Медаль Ушакова";
+"Navy Distinguished Service Medal" = "Орден Нахимова";
+"Navy Cross" = "Орден Ушакова";
+"Medal of Honor" = "Герой Российской Федерации";
+"US_1"="RU_1";
+"US_2"="RU_2";
+"US_3"="RU_3";
+"US_4"="RU_4";
+"US_5"="RU_5";
+
+"US_1_Sprite" = "RU_1_Sprite";
+"US_2_Sprite" = "RU_2_Sprite";
+"US_3_Sprite" = "RU_3_Sprite";
+"US_4_Sprite" = "RU_4_Sprite";
+"US_5_Sprite" = "RU_5_Sprite";
+
+"US_1_SpriteName"="RU_1_SpriteName";
+"US_2_SpriteName"="RU_2_SpriteName";
+"US_3_SpriteName"="RU_3_SpriteName";
+"US_4_SpriteName"="RU_4_SpriteName";
+"US_5_SpriteName"="RU_5_SpriteName";
+
+"250"="230";

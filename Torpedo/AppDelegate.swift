@@ -8,33 +8,68 @@
 import UIKit
 
 @main
+
+
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+    
+        SoundPlayer.init()
+        
+        if(!UserDefaults.standard.bool(forKey: "beenLaunched")){
+            makeBackgroundSoundSettings()
+            makeSoundEffectsSettings()
+            makeHardModeSettings()
+            
+            UserDefaults.standard.setValue(0, forKey: Constants().DESTROYED_KEY)
+            UserDefaults.standard.set(true, forKey: "beenLaunched")
+        }
+        UserDefaults.standard.synchronize()
+        // Предзагрузка Atlas - много памяти!
+        //   preloadAssets()
+        
+     //   testing()
+        
         return true
     }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    
+    //предзагрузка анимации воды
+    func preloadAssets(){
+        DispatchQueue.main.async {
+            Assets.sharedInstance.preloadAssets()
+        }
     }
 
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
+    func makeBackgroundSoundSettings() {
+    if ((UserDefaults.standard.object(forKey:Constants().SOUNDBACKGROUND_KEY)) == nil){
+        UserDefaults.standard.set("ON", forKey: Constants().SOUNDBACKGROUND_KEY)
     }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+}
+    
+    func makeSoundEffectsSettings(){
+        if ((UserDefaults.standard.object(forKey:Constants().SOUNDEFFECTS_KEY)) == nil){
+            UserDefaults.standard.set("ON", forKey: Constants().SOUNDEFFECTS_KEY)
+        }
     }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    func makeHardModeSettings() {
+        if ((UserDefaults.standard.object(forKey:Constants().HARD_KEY)) == nil){
+            UserDefaults.standard.set("OFF", forKey: Constants().HARD_KEY)
+        }
     }
-
-
+    
+    
+    func testing(){
+        //49,199,499,999,1999 - награды
+        //0,49,99,149,199,299,399,499,749,999,1999 - приказы
+        UserDefaults.standard.setValue(499, forKey: Constants().DESTROYED_KEY)
+        
+        //test No launch
+     //   UserDefaults.standard.set(false, forKey: "beenLaunched")
+        UserDefaults.standard.synchronize()
+    }
 }
 
