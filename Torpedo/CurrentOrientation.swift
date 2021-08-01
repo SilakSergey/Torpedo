@@ -10,13 +10,13 @@ import UIKit
 
 func CurrentOrientation() -> String {
     
-    if (UIDevice.current.orientation.isLandscape){
+    if (UIDevice.current.orientation.isPortrait){
         
-        return Constants().LANDSCAPE
-        
-    } else {
         return Constants().PORTRAIT
         
+    } else {
+        
+        return Constants().LANDSCAPE
     }
 }
 

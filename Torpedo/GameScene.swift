@@ -169,11 +169,6 @@ class GameScene:SKScene, CanReceiveTransitionEvents {
     
     //--------------------------------------------------------------Конец логики игры--------------------------------------------------
     
-
-   
-    
-    
-    
     
     func addSky() {
         texture = SKTexture (imageNamed: "sky")
@@ -463,6 +458,7 @@ class GameScene:SKScene, CanReceiveTransitionEvents {
         self.createBoatSprite()
         //двигаем его
         self.moveSprite(timerInterval: Int(arc4random_uniform(60 - 30) + 30), spriteName: boatSprite)
+        print("Корабль пошёл")
     }
     
 
